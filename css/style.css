@@ -236,7 +236,7 @@ div, input, select, textarea, span, img, table, td, th, p, a, button, ul, li {
 }
 
 #theme-change .colors .color-default {
-    background-color: #4A8BC2;
+    background-color: #de1b1b;
 }
 #theme-change .colors .color-green {
     background-color: #74B749;
@@ -804,7 +804,7 @@ a,a:focus, a:hover, a:active {
 }
 
 #footer .goto:hover {
-    background: #4a8bc2;
+    background: #de1b1b;
     opacity: 1;
     transition-duration: 500ms;
     transition-property: width, background;
@@ -2642,8 +2642,8 @@ a.social-link i {
 }
 
 .fc-event-skin {
-    background-color: #4a8bc2 !important;
-    border-color: #4a8bc2 !important;
+    background-color: #de1b1b !important;
+    border-color: #de1b1b !important;
     color: #FFFFFF !important;
 }
 
@@ -2665,7 +2665,7 @@ a.social-link i {
     display: inline-block !important;
     margin-bottom: 10px !important;
     margin-right: 10px !important;
-    background: #4A8BC2 !important;
+    background: #de1b1b !important;
 }
 
 #external-events p input[type="checkbox"]{
@@ -3676,7 +3676,7 @@ ul.faq-list li a:hover, ul.faq-list li a.active{
 }
 
 .blog h2 a:hover {
-    color: #4A8BC2 !important;
+    color: #de1b1b !important;
 }
 
 .blog p {
@@ -4029,8 +4029,8 @@ ul.faq-list li a:hover, ul.faq-list li a.active{
 .custom-pagination ul > li > a:focus,
 .custom-pagination ul > .active > a,
 .custom-pagination ul > .active > span {
-    background: #4a8bc2;
-    border: 1px solid #4a8bc2;
+    background: #de1b1b;
+    border: 1px solid #de1b1b;
     color: #fff;
     padding: 5px 10px;
     text-decoration: none;

@@ -54,24 +54,26 @@
 
                    <ul class="nav pull-right top-menu" >
                        <!-- BEGIN SUPPORT -->
-                       <li class="dropdown mtop5">
-
-                           <a class="dropdown-toggle element" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Chat">
-                               <i class="icon-comments-alt"></i>
-                           </a>
+                       <li>
+                            <div>
+                                <table  border="0" >
+                                    <tbody>
+                                    <tr>
+                                        <td><font size="1">Reports pulled at <b>05/05/2016, 11:00 AM</b></font></td>
+                                    </tr>
+                                    <tr>
+                                        <td><font size="1">Data Refreshed at <b>05/05/2016, 11:00 AM</b></font></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                        </li>
-                       <li class="dropdown mtop5">
-                           <a class="dropdown-toggle element" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Help">
-                               <i class="icon-headphones"></i>
-                           </a>
-                       </li>
+   
                        <!-- END SUPPORT -->
                        <!-- BEGIN USER LOGIN DROPDOWN -->
                        <li class="dropdown">
                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                               <img src="img/avatar1_small.jpg" alt="">
-                               <span class="username">Jhon Doe</span>
-                               <b class="caret"></b>
+                               <b class="icon-chevron-sign-down"></b>
                            </a>
                            <ul class="dropdown-menu extended logout">
                                <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
@@ -275,12 +277,38 @@
                    <!-- BEGIN NOTIFICATION -->
                    <ul class="nav top-menu">
                        <!-- BEGIN SETTINGS -->
+
                        <li class="dropdown">
+<div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
+                       </li>
+
+
+                       <li class="dropdown">
+
                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                <i class="icon-tasks"></i>
                                <span class="badge badge-important">6</span>
                            </a>
-                           <ul class="dropdown-menu extended tasks-bar">
+
+                           <ul class="dropdown-menu extended tasks-bar pull-right">
                                <li>
                                    <p>You have 6 pending tasks</p>
                                </li>
@@ -351,7 +379,7 @@
                                <i class="icon-envelope-alt"></i>
                                <span class="badge badge-important">5</span>
                            </a>
-                           <ul class="dropdown-menu extended inbox">
+                           <ul class="dropdown-menu extended inbox pull-right">
                                <li>
                                    <p>You have 5 new messages</p>
                                </li>
@@ -416,7 +444,7 @@
                                <i class="icon-bell-alt"></i>
                                <span class="badge badge-warning">7</span>
                            </a>
-                           <ul class="dropdown-menu extended notification">
+                           <ul class="dropdown-menu extended notification pull-right">
                                <li>
                                    <p>You have 7 new notifications</p>
                                </li>
